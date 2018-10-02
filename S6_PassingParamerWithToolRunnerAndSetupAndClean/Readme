@@ -1,0 +1,5 @@
+Sample running commands:
+
+hadoop jar _this_project.jar -DcaseSensitive=true _input_folder_path_in_hadoop _output_folder_path_in_hadoop
+
+hadoop jar _this_project.jar -DcaseSensitive=false _input_folder_path_in_hadoop _output_folder_path_in_hadoop
