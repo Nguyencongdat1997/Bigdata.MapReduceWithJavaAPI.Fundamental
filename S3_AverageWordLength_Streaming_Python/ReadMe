@@ -1,0 +1,9 @@
+Running instruction:
+
+hadoop jar hadoop-streaming*.jar \
+-input _input_folder_path_in_hadoop -output _output_folder_path_in_hadoop \
+-file src/mapper.py \
+-file src/reducer.py \
+-mapper mapper.py -reducer reducer.py
+
+
